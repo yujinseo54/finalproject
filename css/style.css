@@ -1,0 +1,181 @@
+@-webkit-keyframes longline{
+
+  from {opacity: 0%;
+     }
+  to {opacity: 100%;
+    }
+}
+
+
+@-webkit-keyframes lightdark{
+
+  0% {transform: scale(1,1);}
+  
+  50% {transform: scale(1.1,1.1);}
+
+  100% {transform: scale(1,1);}
+}
+
+
+
+.bg {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.title  {
+    position: absolute;
+    top: 5%;
+    left: 11%;
+    width: 16%;
+}
+
+.light {
+    position: absolute;
+    top: 6%;
+    left: 47%;
+    width: 6%;
+    animation-name: lightdark;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;}
+
+.dark {
+    position: absolute;
+    top: 50%;
+    left: 64%;
+    width: 6%;
+    animation-name: lightdark;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;}
+
+.l1 {
+	position: absolute;
+    width: 35.2%;
+    top: 34.3%;
+    left: 10%;
+    opacity: 0%;
+    animation-name: longline;
+    animation-delay: 2s;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+
+.c1 {
+    position: absolute;
+    width: 91%;
+    top: 3%;
+    left: 4.8%;
+    display: none;
+}
+
+.c2 {
+    position: absolute;
+    width: 91%;
+    top: 3%;
+    left: 4.8%;
+    display: none;
+}
+
+.p1 {
+    position: absolute;
+    width: 53.3%;
+    top: -1%;
+    left: -3%;
+}
+
+.l11 {
+    position: absolute;
+    width: 79%;
+    top: 50.6%;
+    left: 10.9%;
+    opacity: 0%;
+    animation-name: longline;
+    animation-delay: 1s;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.l12 {
+    position: absolute;
+    width: 65%;
+    top: 43.8%;
+    left: 21.2%;
+    opacity: 0%;
+    animation-name: longline;
+    animation-delay: 1.3s;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+
+.l13 {
+    position: absolute;
+    width: 53%;
+    top: 40.3%;
+    left: 28.4%;
+    opacity: 0%;
+    animation-name: longline;
+    animation-delay: 1.6s;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.l14 {
+    position: absolute;
+    width: 45.5%;
+    top: 34.8%;
+    left: 33.2%;
+    opacity: 0%;
+    animation-name: longline;
+    animation-delay: 1.9s;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.l15 {
+    position: absolute;
+    width: 35.8%;
+    top: 35.2%;
+    left: 38.8%;
+    opacity: 0%;
+    animation-name: longline;
+    animation-delay: 2.2s;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.l16 {
+    position: absolute;
+    width: 30.2%;
+    top: 33.3%;
+    left: 41.8%;
+    opacity: 0%;
+    animation-name: longline;
+    animation-delay: 2.5s;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.l17 {
+    position: absolute;
+    width: 26.2%;
+    top: 32%;
+    left: 43.9%;
+    opacity: 0%;
+    animation-name: longline;
+    animation-delay: 2.6s;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
